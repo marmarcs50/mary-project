@@ -38,3 +38,4 @@ def index():
 if __name__ == "__main__":
     print(f"Open: http://127.0.0.1:{PORT}/  (or http://localhost:{PORT}/)")
     app.run(host="0.0.0.0", port=PORT, debug=True)   
+print("DEPLOY TEST - v1")
